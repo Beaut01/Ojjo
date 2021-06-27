@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+@mixin header-icons{
+    div{
+        ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+
+            li{
+                color: #fff;
+                font-size: 14px;
+                cursor: pointer;
+                transition: all $duration ease-in-out;
+                font-weight: normal;
+
+                &:hover{
+                    color: darken($color: #fff, $amount: 20%)
+                }
+            }
+        }
+    }
+}

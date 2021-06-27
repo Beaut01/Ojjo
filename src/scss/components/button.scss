@@ -1,0 +1,111 @@
+.button{
+    max-width: 260px;
+    max-height: 70px;
+    border: 2px solid transparent;
+    text-align: center;
+    transition: all $duration ease-in-out;
+    cursor: pointer;
+
+    span{
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    &__header{
+        background-color: rgba($color: #000, $alpha: 0.2);
+        border: 2px solid #fff;
+        width: 260px;
+        height: 51px;
+
+        span{
+            color: #fff;
+        }
+
+        &:hover{
+            background-color: #fff;
+            
+            span{
+                color: #000;
+            }
+        }
+
+        &:active{
+            transform: translateY(5px);
+        }
+    }
+
+    &__events{
+        width: 165/1110 * 100%;
+        height: 51px;
+        border: 1px solid rgba($color: #000000, $alpha: 0.4);
+        background-color: #fff;
+        
+        span{
+            font-size: 18px;
+            font-weight: normal;
+            color: #000;
+        }
+        
+        &:hover{
+            background-color: darken($color: #fff, $amount: 15%);
+        }
+        
+        &:active{
+            background-color: #000;
+            border: 1px solid black;
+
+            span{
+                color: white;
+            }
+        }
+
+    }
+
+    &__salons{
+        width: 224/1100 * 100%;
+        height: 51px;
+        background-color: white;
+        
+        span{
+            color: #000;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        &:hover{
+            background-color: darken($color: #fff, $amount: 15%);
+        }
+
+        &:active{
+            background-color: darken($color: #fff, $amount: 25%);
+            transform: translateY(5px);
+        }
+    }
+
+    &__articles{
+        width: 255px;
+        background-color: #333333;
+        height: 55px;
+
+        span{
+            color: #fff;
+            font-weight: normal;
+            font-size: 18px;
+        }
+
+        &:hover{
+            background-color: darken($color: #fff, $amount: 10%);
+            border: 2px solid #333333;
+
+            span{
+                color: #333333;
+            }
+        }
+
+
+        &:active{
+            background-color: darken($color: #fff, $amount: 50%);
+            transform: translateY(5px);
+        }
+    }
+}
