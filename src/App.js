@@ -3,6 +3,8 @@ import { Articles } from './components/Articles'
 import { Events } from './components/Events'
 import { Header } from './components/Header'
 import { Salons } from './components/Salons'
+import { Social } from './components/Social'
+import { Advices } from './components/Advices'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Events />
       <Salons />
       <Articles />
+      <Social />
+      <Advices />
     </div>
     
   );

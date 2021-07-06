@@ -1,0 +1,68 @@
+.advices{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-image: url('https://sun9-32.userapi.com/impg/N0zrpPmjHLFpuZz1a2N6Bc4h-szA-WggWaNbXA/UbyoSEuccfc.jpg?size=2560x721&quality=96&sign=c39ab2b7eb9b780d56ebab47a1b265da&type=album');
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            font-size: 21px;
+            font-weight: normal;
+        }
+    }
+
+    &__title2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+
+        p{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            font-size: 21px;
+            font-weight: 700;
+        }
+    }
+
+    &__contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                display: flex;
+                
+                &:not(:first-child){
+                    margin-top: 15px;
+                }
+
+                span{
+                    margin-right: 20px;
+                }
+
+                p{
+                    margin: 0;
+                    padding: 0;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
