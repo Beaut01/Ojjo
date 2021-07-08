@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     margin-top: 150px;
+    padding-bottom: 125px;
     background-image: url('https://sun9-32.userapi.com/impg/N0zrpPmjHLFpuZz1a2N6Bc4h-szA-WggWaNbXA/UbyoSEuccfc.jpg?size=2560x721&quality=96&sign=c39ab2b7eb9b780d56ebab47a1b265da&type=album');
 
     &__title{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
 
         p{
             color: #fff;
@@ -63,6 +65,28 @@
                     font-weight: normal;
                 }
             }
+        }
+    }
+
+    &__actions{
+        margin-left: 80px;
+        border: 1px solid #fff;
+        padding: 14px 15px;
+    }
+
+    &__wrapper{
+        background-color: #fff;
+        padding: 20px 22px;
+    }
+
+    &__input{
+        width: 200px;
+        height: 45px;
+        margin-right: 15px;
+        padding-left: 20px;
+
+        &:focus{
+            outline: none;
         }
     }
 }

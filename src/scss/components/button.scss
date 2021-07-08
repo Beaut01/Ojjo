@@ -108,4 +108,33 @@
             transform: translateY(5px);
         }
     }
+
+    &__advices{
+        background-color: #333333;
+        width: 159px;
+        height: 45px;
+
+        span{
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        &:hover{
+            background-color: darken($color: #333333, $amount: 10%);
+
+            span{
+                color: darken($color: #fff, $amount: 10%);
+            }
+        }
+
+        &:active{
+            background-color: darken($color: #333333, $amount: 25%);
+            transform: translateY(5px);
+
+            span{
+                color: darken($color: #fff, $amount: 25%);
+            }
+        }
+    }
 }

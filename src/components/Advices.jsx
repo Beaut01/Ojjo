@@ -32,8 +32,13 @@ export const Advices = () =>{
                         <p>Индивидуальный дизайн</p>
                     </li>
                 </ul>
-                <div className="advices__input">
-                    
+                <div className="advices__actions">
+                    <div className="advices__wrapper">
+                        <input type="text" className="advices__input" placeholder='Ваш E-Mail' />
+                        <button className="button button__advices">
+                            <span>Отправить</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

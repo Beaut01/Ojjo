@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 import { Salons } from './components/Salons'
 import { Social } from './components/Social'
 import { Advices } from './components/Advices'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Articles />
       <Social />
       <Advices />
+      <Footer />
     </div>
     
   );
